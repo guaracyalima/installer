@@ -1,0 +1,9 @@
+[Unit]
+Description=Stunnel BB
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/stunnel4
+
+[Install]
+WantedBy=multi-user.target
