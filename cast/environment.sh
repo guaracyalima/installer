@@ -1,4 +1,3 @@
-
 echo -e "\n\n\n\n";
 
 hostname -I | awk '{print $1}'
@@ -86,7 +85,9 @@ sudo a2enmod ssl
 sudo a2ensite default-ssl.conf
 
 sudo a2enmod proxy
+
 stunnel4.service
+
 sudo a2enmod proxy_http
 
 sudo systemctl reload apache2
@@ -106,9 +107,9 @@ sudo service apache2 restart
 
 echo -e "\n\n\n Iniciando instalação do NodeJS \n\n";
 
-sudo apt-get install nodejs-legacy
+sudo apt-get install nodejs-legacy -y
 
-sudo apt-get install npm
+sudo apt install npm -y
 
 sudo npm install -g npm
 
@@ -145,12 +146,12 @@ sudo apt install wget -y
 #
 # tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
-cd forticlientsslvpn
-
 echo -e "\n\n configurando hosts \n\n";
 
 cat ./hosts | sudo tee -a /etc/hosts
 
+cd forticlientsslvpn
+
 bash fortisslvpn.sh
 
-echo -e "\n\n Configuração finalizada \n\n";
+echo -e "\n\n Configuração finalizada \n\n";​
