@@ -115,9 +115,7 @@ echo -e "\n\n\n Iniciando instalação do NodeJS \n\n";
 #
 #
 
-git clone https://github.com/nvm-sh/nvm.git ~/.nvm
-
-cd ~/.nvm
+cd .nvm
 
 git checkout v0.35.3
 
