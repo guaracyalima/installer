@@ -37,3 +37,5 @@ tags
 # End of https://www.gitignore.io/api/vim,powershell
 
 test.sh
+
+cast/evil.sh

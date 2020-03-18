@@ -104,27 +104,13 @@ sudo apachectl configtest
 
 sudo service apache2 restart
 
-pwd home
-echo $home
-
 echo -e "\n\n\n Iniciando instalação do NodeJS \n\n";
 
-# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-#
-#
-#
-#
+sudo apt-get install nodejs-legacy
 
-cd .nvm
+sudo apt-get install npm
 
-git checkout v0.35.3
-
-cat ./bashrc | sudo tee -a ~/.bashrc
-
-source ~/.bashrc
-
-nvm install --lts
-
+sudo npm install -g npm
 
 echo -e "Node.: " $(node -v)
 echo -e "NPM.: "$(npm -v)
@@ -149,15 +135,15 @@ npm i -g karma-cli
 
 echo -e "\n\n Configurando VPN cast \n\n";
 
-cd $home
+# cd $home
 
 sudo apt install wget -y
 
-wget www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz
+#wget www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz
 
-ls
-
-tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
+# ls
+#
+# tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
 cd cast/forticlientsslvpn
 

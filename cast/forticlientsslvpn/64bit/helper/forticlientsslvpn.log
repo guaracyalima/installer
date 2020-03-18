@@ -1,0 +1,173 @@
+03/17/2020 09:26:45 [6343] set the loglevel to 1
+03/17/2020 09:26:45 [6343] sslvpn connection version:4.0.2332
+03/17/2020 09:26:45 [981] set the loglevel to 1
+03/17/2020 09:26:45 [6343] rcv cmd:0 at state[0]
+03/17/2020 09:26:45 [6343] starting ssl vpn tunnel[4.0.2332]
+03/17/2020 09:26:45 [6347] route backup START
+03/17/2020 09:26:45 [6347] route backup DONE
+03/17/2020 09:26:45 [6348] execl /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper vpnara.castgroup.com.br 443   ...
+03/17/2020 09:26:45 [6348] trusted CA dir: /home/c1298001/.fctsslvpn_trustca
+03/17/2020 09:26:45 [6348] set loglevel to 1
+03/17/2020 09:26:45 [6348] peer certificate verify result: 0
+
+03/17/2020 09:26:45 [6348] ssl connect failed
+03/17/2020 09:26:45 [6343] rcv notice:1|SSL connect failed.
+03/17/2020 09:26:45 [6343] setup tunnel failed
+
+03/17/2020 09:26:45 [6343] kill_child:6348
+03/17/2020 09:26:45 [6343] tunnel start failed
+03/17/2020 09:26:45 [6349] begin cleanup linux...
+03/17/2020 09:26:45 [6349] clean up route...
+03/17/2020 09:26:45 [6349] truncate pppd.log
+03/17/2020 09:26:45 [6349] truncate forticlientsslvpn.log
+03/17/2020 09:26:45 [6348] FortiClient SSLVPN[4.0.2332] stopped
+03/17/2020 09:26:49 [6343] rcv cmd:1 at state[0]
+03/17/2020 09:26:49 [6343] rcv cmd:2 at state[0]
+03/17/2020 09:29:14 [9260] set the loglevel to 1
+03/17/2020 09:29:14 [9260] sslvpn connection version:4.0.2332
+03/17/2020 09:29:14 [981] set the loglevel to 1
+03/17/2020 09:29:14 [9260] rcv cmd:0 at state[0]
+03/17/2020 09:29:14 [9260] starting ssl vpn tunnel[4.0.2332]
+03/17/2020 09:29:14 [9264] route backup START
+03/17/2020 09:29:14 [9264] route backup DONE
+03/17/2020 09:29:14 [9265] execl /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper vpnara.castgroup.com.br 443   ...
+03/17/2020 09:29:14 [9265] trusted CA dir: /home/c1298001/.fctsslvpn_trustca
+03/17/2020 09:29:14 [9265] set loglevel to 1
+03/17/2020 09:29:14 [9265] Peer's certificate is not valid. action is 1
+03/17/2020 09:29:14 [9265] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 171090 (0x29c52)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Aug 10 14:14:41 2017 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG200E4Q17908789/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:c5:ae:bc:f5:16:99:ad:ee:41:e9:4e:b5:94:f1:$                    7e:4a:c4:73:3a:7d:a7:47:20:16:d3:44:30:aa:ba:$                    89:72:cd:dc:05:ae:40:d3:ca:8e:16:63:0f:5a:1b:$                    e2:fc:fa:44:bc:d1:4d:4b:6c:a7:d9:1b:13:d0:17:$                    a5:82:ab:35:96:da:ca:32:e4:f4:15:2c:cc:50:5e:$                    69:bf:40:03:a6:8f:11:ea:03:74:8b:82:f5:0d:e5:$                    8a:79:7c:cf:79:99:69:b9:61:06:40:ff:3f:fc:8a:$                    37:06:80:6f:aa:6f:76:f5:3c:fd:2d:79:29:87:2a:$                    75:32:b3:2b:0b:a4:99:19:d1:df:31:b1:73:1e:0d:$                    ca:e2:94:0b:70:e4:9a:3b:eb:25:ff:46:76:47:41:$                    7c:fc:4a:13:04:fc:25:8e:e1:27:06:cb:44:60:a8:$                    26:6d:1c:d0:22:db:ce:1b:44:56:88:34:fc:d7:2b:$                    02:53:7c:ba:c7:0b:8c:ca:a2:de:1c:8f:c1:5d:56:$                    83:8d:0a:6c:35:6a:ac:ee:2a:c9:44:fd:d5:88:35:$                    4c:49:83:9b:ee:00:0d:a3:5a:4c:99:a2:dd:8b:c5:$                    ce:60:27:1f:04:6a:52:a1:05:d8:ee:11:a7:a7:2d:$                    d0:00:61:7b:95:9b:01:52:2b:17:5e:bf:d2:c8:93:$                    26:07$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         83:e3:5c:55:47:b8:35:db:10:aa:09:99:d4:9a:13:e5:ab:4c:$         83:dd:48:8e:e7:1d:1c:18:c2:8e:2b:11:14:e0:b7:46:16:8e:$         03:28:c8:2f:b0:98:d9:54:26:0d:d8:ab:3b:1b:83:22:2e:3d:$         7e:43:76:06:d3:dd:47:99:0f:f1:68:57:d8:76:cc:e4:b1:b4:$         b3:e2:0a:8e:63:e6:cc:b3:58:96:fb:69:ce:10:89:e2:9e:eb:$         e3:ca:53:0a:cd:fa:4b:5a:46:51:e3:73:32:b9:fb:fc:5c:02:$         8e:29:0f:7a:90:e8:27:b1:cf:8c:3c:27:a1:5b:8a:85:bd:5a:$         a8:ed:33:69:78:6f:87:66:3b:13:eb:0d:5f:b8:b3:51:43:97:$         02:63:8e:e1:0a:7f:9d:73:76:fb:7c:79:5c:05:7e:c2:5c:7a:$         c6:78:ad:d2:2f:ac:49:55:5a:6a:f3:14:85:d2:6f:8b:22:d6:$         24:8e:f9:49:58:da:b1:f2:5f:73:9e:87:42:3a:cd:a9:45:10:$         ec:70:5f:10:c7:40:e1:e6:3d:1b:68:f9:a8:c3:32:0a:e0:6e:$         59:4f:d7:c6:03:39:e2:de:e4:e0:95:9b:61:8e:90:63:21:ab:$         ab:c8:2b:f0:7b:2d:02:01:2a:43:9a:65:55:88:aa:18:6a:ee:$         fc:57:03:7c$
+03/17/2020 09:29:18 [9265] realm is enabled: 
+03/17/2020 09:29:18 [9265] no Content-Length
+03/17/2020 09:29:18 [9265] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+03/17/2020 09:29:18 [9265] no Content-Length
+03/17/2020 09:29:18 [9265] cookie: SVPNCOOKIE=PNFeJ0ThNwGzfzNO6hhWcBrBoI5AcyOWqIlsh2pBJk4ieemqqnGfHsJi9cbormQtx7XmG60sQVKn06QY+09uIFyM3GX3uYvdOpcRvzd3Ee0TN82pBy1rmct77hPZotcjE2Ar6eJexOX2RFuFMmGJ8E0hJHYaN4NVtC1nuLTDS1pRKsTtd0pPx8jJbJGXBj7mUHctvhalf1r2tPQGUNFtZ0+2Ys6Tj/MJ07FQGGWLNLamGCR29rGXHKPhJYKDHJUYxM8uFyrChd+O6sq0I/FFUjmA/NjTFMSrINbj5jMJF7A=
+03/17/2020 09:29:18 [9265] no Content-Length
+03/17/2020 09:29:18 [9265] no Content-Length
+03/17/2020 09:29:18 [9265] 0|vpnara.castgroup.com.br|443|1||PNFeJ0ThNwGzfzNO6hhWcBrBoI5AcyOWqIlsh2pBJk4ieemqqnGfHsJi9cbormQtx7XmG60sQVKn06QY+09uIFyM3GX3uYvdOpcRvzd3Ee0TN82pBy1rmct77hPZotcjE2Ar6eJexOX2RFuFMmGJ8E0hJHYaN4NVtC1nuLTDS1pRKsTtd0pPx8jJbJGXBj7mUHctvhalf1r2tPQGUNFtZ0+2Ys6Tj/MJ07FQGGWLNLamGCR29rGXHKPhJYKDHJUYxM8uFyrChd+O6sq0I/FFUjmA/NjTFMSrINbj5jMJF7A=|0
+03/17/2020 09:29:18 [9260] ssl vpn tunnel started
+03/17/2020 09:29:18 [9277] server=vpnara.castgroup.com.br[vpnara.castgroup.com.br] port=443[443] version=1 tunnel= cookie=PNFeJ0ThNwGzfzNO6hhWcBrBoI5AcyOWqIlsh2pBJk4ieemqqnGfHsJi9cbormQtx7XmG60sQVKn06QY+09uIFyM3GX3uYvdOpcRvzd3Ee0TN82pBy1rmct77hPZotcjE2Ar6eJexOX2RFuFMmGJ8E0hJHYaN4NVtC1nuLTDS1pRKsTtd0pPx8jJbJGXBj7mUHctvhalf1r2tPQGUNFtZ0+2Ys6Tj/MJ07FQGGWLNLamGCR29rGXHKPhJYKDHJUYxM8uFyrChd+O6sq0I/FFUjmA/NjTFMSrINbj5jMJF7A= exclusive routing: 0
+
+03/17/2020 09:29:18 [9277] starting pppd
+03/17/2020 09:29:18 [9277] use tty:/dev/pts/2
+03/17/2020 09:29:18 [9277] connecting to vpnara.castgroup.com.br:443
+03/17/2020 09:29:18 [9277] [xml config]: GET /remote/fortisslvpn_xml ... (received 903 bytes): 
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2020 12:26:54 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG200E' major='6' minor='00' patch='6' build='0272' branch='0272' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='10.11.50.190' /><dns ip='10.11.50.133' /><assigned-addr ipv4='10.11.40.97' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+03/17/2020 09:29:18 [9277] dns suffix: 
+
+03/17/2020 09:29:19 [9277] Got local address from ppp, interface will be  up
+03/17/2020 09:29:25 [9277] ppp interface is up
+03/17/2020 09:29:25 [9277] run_scutil 189.112.143.59 0 0...
+Generating pppd.resolv.conf...Done
+03/17/2020 09:29:26 [9488] begin sysconfig linux
+03/17/2020 09:29:26 [9488] Gateway to FGT: 172.20.10.1
+03/17/2020 09:29:26 [9488] delete route 1.1.1.1
+03/17/2020 09:29:26 [9488] Add the route for 189.112.143.59(172.20.10.1)
+03/17/2020 09:29:26 [9488] router add default gw 10.11.40.97
+03/17/2020 09:47:39 [9260] rcv cmd:1 at state[1]
+03/17/2020 09:47:39 [9260] stopping ssl vpn tunnel[v4.0.2332]
+03/17/2020 09:47:39 [9260] kill_child:9277
+03/17/2020 09:47:39 [9260] kill_child:9265
+03/17/2020 09:47:39 [9277] killing pppd ...
+03/17/2020 09:47:39 [9265] signal rcved, logout now
+03/17/2020 09:47:39 [9277] kill_child:9279
+03/17/2020 09:47:39 [9277] kill_child:9488
+03/17/2020 09:47:39 [9260] tunnel terminated
+03/17/2020 09:47:39 [30254] begin cleanup linux...
+03/17/2020 09:47:39 [30254] restore /etc/resolv.conf
+03/17/2020 09:47:39 [30254] clean up route...
+03/17/2020 09:47:39 [30254] truncate pppd.log
+03/17/2020 09:47:39 [30254] truncate forticlientsslvpn.log
+03/17/2020 09:47:39 [9260] ssl vpn tunnel stopped
+03/17/2020 09:47:39 [9260] rcv cmd:2 at state[0]
+03/17/2020 09:47:47 [9265] getaddrinfo error for vpnara.castgroup.com.br, 443: Falha temporário na resolução de nome: Conexão recusada
+03/17/2020 09:47:47 [9265] tcp connect: Conexão recusada
+03/17/2020 16:16:30 [9265] system might be waken up from sleep
+03/18/2020 12:50:09 [2251] set the loglevel to 1
+03/18/2020 12:50:09 [2266] set the loglevel to 1
+03/18/2020 12:50:09 [2266] sslvpn connection version:4.0.2332
+03/18/2020 12:50:09 [2266] rcv cmd:0 at state[0]
+03/18/2020 12:50:09 [2266] starting ssl vpn tunnel[4.0.2332]
+03/18/2020 12:50:09 [2270] route backup START
+03/18/2020 12:50:09 [2270] route backup DONE
+03/18/2020 12:50:09 [2271] execl /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/c1298001/Downloads/forticlientsslvpn/64bit/./helper vpnara.castgroup.com.br 443   ...
+03/18/2020 12:50:09 [2271] trusted CA dir: /home/c1298001/.fctsslvpn_trustca
+03/18/2020 12:50:09 [2271] set loglevel to 1
+03/18/2020 12:50:09 [2271] Peer's certificate is not valid. action is 1
+03/18/2020 12:50:09 [2271] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 171090 (0x29c52)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Aug 10 14:14:41 2017 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG200E4Q17908789/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:c5:ae:bc:f5:16:99:ad:ee:41:e9:4e:b5:94:f1:$                    7e:4a:c4:73:3a:7d:a7:47:20:16:d3:44:30:aa:ba:$                    89:72:cd:dc:05:ae:40:d3:ca:8e:16:63:0f:5a:1b:$                    e2:fc:fa:44:bc:d1:4d:4b:6c:a7:d9:1b:13:d0:17:$                    a5:82:ab:35:96:da:ca:32:e4:f4:15:2c:cc:50:5e:$                    69:bf:40:03:a6:8f:11:ea:03:74:8b:82:f5:0d:e5:$                    8a:79:7c:cf:79:99:69:b9:61:06:40:ff:3f:fc:8a:$                    37:06:80:6f:aa:6f:76:f5:3c:fd:2d:79:29:87:2a:$                    75:32:b3:2b:0b:a4:99:19:d1:df:31:b1:73:1e:0d:$                    ca:e2:94:0b:70:e4:9a:3b:eb:25:ff:46:76:47:41:$                    7c:fc:4a:13:04:fc:25:8e:e1:27:06:cb:44:60:a8:$                    26:6d:1c:d0:22:db:ce:1b:44:56:88:34:fc:d7:2b:$                    02:53:7c:ba:c7:0b:8c:ca:a2:de:1c:8f:c1:5d:56:$                    83:8d:0a:6c:35:6a:ac:ee:2a:c9:44:fd:d5:88:35:$                    4c:49:83:9b:ee:00:0d:a3:5a:4c:99:a2:dd:8b:c5:$                    ce:60:27:1f:04:6a:52:a1:05:d8:ee:11:a7:a7:2d:$                    d0:00:61:7b:95:9b:01:52:2b:17:5e:bf:d2:c8:93:$                    26:07$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         83:e3:5c:55:47:b8:35:db:10:aa:09:99:d4:9a:13:e5:ab:4c:$         83:dd:48:8e:e7:1d:1c:18:c2:8e:2b:11:14:e0:b7:46:16:8e:$         03:28:c8:2f:b0:98:d9:54:26:0d:d8:ab:3b:1b:83:22:2e:3d:$         7e:43:76:06:d3:dd:47:99:0f:f1:68:57:d8:76:cc:e4:b1:b4:$         b3:e2:0a:8e:63:e6:cc:b3:58:96:fb:69:ce:10:89:e2:9e:eb:$         e3:ca:53:0a:cd:fa:4b:5a:46:51:e3:73:32:b9:fb:fc:5c:02:$         8e:29:0f:7a:90:e8:27:b1:cf:8c:3c:27:a1:5b:8a:85:bd:5a:$         a8:ed:33:69:78:6f:87:66:3b:13:eb:0d:5f:b8:b3:51:43:97:$         02:63:8e:e1:0a:7f:9d:73:76:fb:7c:79:5c:05:7e:c2:5c:7a:$         c6:78:ad:d2:2f:ac:49:55:5a:6a:f3:14:85:d2:6f:8b:22:d6:$         24:8e:f9:49:58:da:b1:f2:5f:73:9e:87:42:3a:cd:a9:45:10:$         ec:70:5f:10:c7:40:e1:e6:3d:1b:68:f9:a8:c3:32:0a:e0:6e:$         59:4f:d7:c6:03:39:e2:de:e4:e0:95:9b:61:8e:90:63:21:ab:$         ab:c8:2b:f0:7b:2d:02:01:2a:43:9a:65:55:88:aa:18:6a:ee:$         fc:57:03:7c$
+03/18/2020 12:50:10 [2271] realm is enabled: 
+03/18/2020 12:50:11 [2271] no Content-Length
+03/18/2020 12:50:11 [2271] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+03/18/2020 12:50:11 [2271] no Content-Length
+03/18/2020 12:50:11 [2271] cookie: SVPNCOOKIE=w2JDcvmvA2Mox3JmBVC+B4/tMclYioBTQbKfUDFuXgQL7r1kabvlbUDOI1pycbda0GCnjioSVA1uuLKg8EylSen5lK3rKNMM7B0o2/LhoSr8F6AFvTK6RlW6dv9dlnvaYLNE1m0b2947Xz/ydnOc+THd6Ofb559BdAOvBHKm9HaRvhfmubODel3waAuoDY7uSarCk1xKBX9DXyTwpcDcK1eAf6Av0PcBQXNt8HUYOmqAuvrtFF+ZA0DtNOg3XyZkrUWLxCX5I6Kw7DsedXnpudLpJ6Lg7wuYlbM7pEOzcUU=
+03/18/2020 12:50:11 [2271] no Content-Length
+03/18/2020 12:50:11 [2271] no Content-Length
+03/18/2020 12:50:11 [2271] 0|vpnara.castgroup.com.br|443|1||w2JDcvmvA2Mox3JmBVC+B4/tMclYioBTQbKfUDFuXgQL7r1kabvlbUDOI1pycbda0GCnjioSVA1uuLKg8EylSen5lK3rKNMM7B0o2/LhoSr8F6AFvTK6RlW6dv9dlnvaYLNE1m0b2947Xz/ydnOc+THd6Ofb559BdAOvBHKm9HaRvhfmubODel3waAuoDY7uSarCk1xKBX9DXyTwpcDcK1eAf6Av0PcBQXNt8HUYOmqAuvrtFF+ZA0DtNOg3XyZkrUWLxCX5I6Kw7DsedXnpudLpJ6Lg7wuYlbM7pEOzcUU=|0
+03/18/2020 12:50:11 [2266] ssl vpn tunnel started
+03/18/2020 12:50:11 [2275] server=vpnara.castgroup.com.br[vpnara.castgroup.com.br] port=443[443] version=1 tunnel= cookie=w2JDcvmvA2Mox3JmBVC+B4/tMclYioBTQbKfUDFuXgQL7r1kabvlbUDOI1pycbda0GCnjioSVA1uuLKg8EylSen5lK3rKNMM7B0o2/LhoSr8F6AFvTK6RlW6dv9dlnvaYLNE1m0b2947Xz/ydnOc+THd6Ofb559BdAOvBHKm9HaRvhfmubODel3waAuoDY7uSarCk1xKBX9DXyTwpcDcK1eAf6Av0PcBQXNt8HUYOmqAuvrtFF+ZA0DtNOg3XyZkrUWLxCX5I6Kw7DsedXnpudLpJ6Lg7wuYlbM7pEOzcUU= exclusive routing: 0
+
+03/18/2020 12:50:11 [2275] starting pppd
+03/18/2020 12:50:11 [2275] use tty:/dev/pts/2
+03/18/2020 12:50:11 [2275] connecting to vpnara.castgroup.com.br:443
+03/18/2020 12:50:11 [2275] [xml config]: GET /remote/fortisslvpn_xml ... (received 902 bytes): 
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2020 15:47:44 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG200E' major='6' minor='00' patch='6' build='0272' branch='0272' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='10.11.50.190' /><dns ip='10.11.50.133' /><assigned-addr ipv4='10.11.40.1' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+03/18/2020 12:50:11 [2275] dns suffix: 
+
+03/18/2020 12:50:12 [2275] Got local address from ppp, interface will be  up
+03/18/2020 12:50:20 [2275] ppp interface is up
+03/18/2020 12:50:20 [2275] run_scutil 177.19.193.106 0 0...
+Generating pppd.resolv.conf...Done
+03/18/2020 12:50:21 [2594] begin sysconfig linux
+03/18/2020 12:50:21 [2594] Gateway to FGT: 172.20.10.1
+03/18/2020 12:50:21 [2594] delete route 1.1.1.1
+03/18/2020 12:50:21 [2594] Add the route for 177.19.193.106(172.20.10.1)
+03/18/2020 12:50:21 [2594] router add default gw 10.11.40.1
+03/18/2020 13:23:19 [2275] read error from tty[Erro de entrada/saída]
+03/18/2020 13:23:19 [2275] rcv frame from tty fail
+03/18/2020 13:23:19 [2275] io finished, kill pppd
+03/18/2020 13:23:19 [2275] kill_child:2277
+03/18/2020 13:23:19 [2275] tunnel finished, killing session
+03/18/2020 13:23:19 [2275] killing pppd ...
+03/18/2020 13:23:19 [2275] kill_child:2594
+03/18/2020 13:23:19 [2266] tunnel terminated
+03/18/2020 13:23:19 [2266] tunnel down unexpected
+03/18/2020 13:23:19 [2266] kill_child:2271
+03/18/2020 13:23:19 [2271] signal rcved, logout now
+03/18/2020 13:23:19 [11000] begin cleanup linux...
+03/18/2020 13:23:19 [11000] restore /etc/resolv.conf
+03/18/2020 13:23:19 [11000] clean up route...
+03/18/2020 13:23:19 [11000] failed to delete route: dst=177.19.193.106, mask=255.255.255.255, gw=172.20.10.1, dev=wlp3s0
+03/18/2020 13:23:19 [11000] truncate pppd.log
+03/18/2020 13:23:19 [11000] truncate forticlientsslvpn.log
+03/18/2020 13:23:19 [2266] select: Chamada de sistema interrompida
+03/18/2020 13:23:19 [2266] rcv cmd:1 at state[0]
+03/18/2020 13:23:19 [2266] rcv cmd:2 at state[0]
+03/18/2020 13:23:59 [2271] getaddrinfo error for vpnara.castgroup.com.br, 443: Falha temporário na resolução de nome: Tempo esgotado para conexão
+03/18/2020 13:24:39 [2271] getaddrinfo error for vpnara.castgroup.com.br, 443: Falha temporário na resolução de nome: Tempo esgotado para conexão
+03/18/2020 13:24:39 [2271] tcp connect: Tempo esgotado para conexão
