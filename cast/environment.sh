@@ -145,7 +145,7 @@ ls
 
 tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
-cd forticlientsslvpn
+cd cast/forticlientsslvpn
 
 echo -e "\n\n configurando hosts \n\n";
 
