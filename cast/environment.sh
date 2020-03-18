@@ -145,7 +145,7 @@ sudo apt install wget -y
 #
 # tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
-cd cast/forticlientsslvpn
+cd forticlientsslvpn
 
 echo -e "\n\n configurando hosts \n\n";
 
