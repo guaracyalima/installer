@@ -132,3 +132,23 @@ npm install -g grunt-cli
 echo -e "Grunt.: " $(grunt -version)
 
 npm i -g karma-cli
+
+echo -e "\n\n Configurando VPN cast \n\n";
+
+sudo apt install wget -y
+
+wget www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz
+
+ls
+
+tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
+
+cd forticlientsslvpn
+
+echo -e "\n\n configurando hosts \n\n";
+
+cat ./hosts | sudo tee -a /etc/hosts
+
+bash fortisslvpn.sh
+
+echo -e "\n\n Configuração finalizada \n\n";
