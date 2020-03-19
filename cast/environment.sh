@@ -141,10 +141,11 @@ echo -e "\n\n Configurando VPN cast \n\n";
 sudo apt install wget -y
 
 #wget www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz
+curl www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz --output forticlientsslvpn_linux_4.4.2332.tar.gz
 
-# ls
-#
-# tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
+ls
+
+tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
 echo -e "\n\n configurando hosts \n\n";
 
