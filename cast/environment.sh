@@ -145,7 +145,7 @@ curl www.niser.ac.in/docs/forticlientsslvpn_linux_4.4.2332.tar.gz --output forti
 
 ls
 
-tar –zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
+tar -zxvf forticlientsslvpn_linux_4.4.2332.tar.gz
 
 echo -e "\n\n configurando hosts \n\n";
 
